@@ -1,0 +1,79 @@
+/* Connect.css */
+
+.connect-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    background-color: bisque;/* Adjust the height as needed */
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .video-call-button,
+  .schedule-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+  }
+  
+  .video-call-button:hover,
+  .schedule-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Additional styles for Font Awesome icons */
+  .video-call-button svg,
+  .schedule-button svg {
+    margin-right: 8px;
+  }
+  
+  /* Additional styles for button container spacing */
+  @media (max-width: 768px) {
+    .button-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .video-call-button,
+    .schedule-button {
+      margin-top: 10px;
+    }
+  }
+  .connect-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .connect-container img {
+    max-width: 50%;
+    border-radius: 8px;
+    height: 18cm; /* Optional: Add border-radius to the image */
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 50%;
+    padding: 20px; /* Adjust the padding as needed */
+  }
+  
+  .button-container button {
+    margin-bottom: 10px;
+  }
+  

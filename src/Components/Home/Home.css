@@ -1,0 +1,265 @@
+/* Main Hero Section Styling */
+
+body {
+  margin: 0; /* Remove default body margin */
+  padding: 0; /* Remove default body padding */
+  width: 100vw; /* Make sure body takes full viewport width */
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+.container {
+  margin: 0; /* Remove margin from container */
+  padding: 0; /* Optionally, set padding to zero */
+  width: 100%; /* Ensure it takes full width */
+  max-width: 1200px; /* Optional: set a max width */
+  margin: auto; /* Center container */
+}
+
+/* Additional styles can be added here */
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    background-color: #00b3c7;
+    border-radius: 0px;
+    margin: 0 auto;
+    margin-top: 1px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.4s ease-in-out;
+   
+
+  }
+  
+  /* Content (Text) Styling */
+  .content {
+    flex: 1;
+    padding-right: 50px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards;
+  }
+  
+  .content h2 {
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  
+  .content h1 {
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    font-family: 'Poppins', sans-serif;
+
+
+  }
+  
+  .content p {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    margin-left: 20px;
+  }
+  
+  /* Button Styling */
+  .learn-more-btn {
+    padding: 14px 30px;
+    background-color: #0b2a45;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.4s, transform 0.3s ease;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    margin-left: 20px;
+    margin-top: 20px;
+
+  }
+  
+  .learn-more-btn:hover {
+    background-color: #085f82;
+    transform: translateY(-5px);
+  }
+  
+  /* Image Container */
+  .image-container {
+    flex: 1;
+    text-align: right;
+    position: relative;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1.2s forwards;
+  }
+  
+  .image-container img {
+    width: 450px;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    margin-left: 5cm;
+  }
+  
+  .image-container img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1200px) {
+    .hero-section {
+      flex-direction: column;
+      padding: 40px;
+    }
+  
+    .content {
+      text-align: center;
+      padding-right: 0;
+      margin-bottom: 30px;
+    }
+  
+    .image-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    .image-container img {
+      width: 90%; /* Adjust width to ensure responsiveness */
+      max-width: 500px;
+      margin: 0 auto; /* Center the image */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .hero-section {
+      padding: 20px;
+    }
+  
+    .content h1 {
+      font-size: 36px;
+    }
+  
+    .learn-more-btn {
+      padding: 12px 25px;
+      font-size: 14px;
+    }
+  
+    .image-container img {
+      max-width: 90%; /* Ensure image fits smaller screens */
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .hero-section {
+      padding: 30px;
+      flex-direction: column;
+    }
+  
+    .content h1 {
+      font-size: 32px;
+    }
+  
+    .content p {
+      font-size: 16px;
+    }
+  
+    .image-container img {
+      width: 90%; /* Keep image responsive */
+      margin-bottom: 20px;
+    }
+  
+    .learn-more-btn {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .content h1 {
+      font-size: 24px;
+    }
+  
+    .learn-more-btn {
+      font-size: 12px;
+      padding: 8px 16px;
+    }
+  
+    .image-container img {
+      max-width: 300px; /* Ensure image is smaller on very small screens */
+    }
+  }
+  
+  /* Keyframe Animations */
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Extra Animation for Floating Effect */
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  
+  /* Background Shapes */
+  .hero-section {
+    background: linear-gradient(135deg, #00b3c7, #008c9e);
+    position: relative;
+  }
+  
+  .hero-section::before,
+  .hero-section::after {
+    content: '';
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    z-index: 1;
+    animation: float 6s ease-in-out infinite;
+    opacity: 0.5;
+  }
+  
+  .hero-section::before {
+    top: -100px;
+    left: -150px;
+  }
+  
+  .hero-section::after {
+    bottom: -100px;
+    right: -150px;
+  }
+  
+  .hero-section:hover::before {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Glowing effect on hover for text and buttons */
+  .content h1:hover,
+  .content h2:hover,
+  .content p:hover {
+    text-shadow: 3px 3px 15px rgba(255, 255, 255, 0.4);
+  }
+  

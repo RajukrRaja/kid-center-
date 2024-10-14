@@ -1,0 +1,119 @@
+/* RegisterForm.css */
+
+.register-dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px; /* More rounded corners for a modern look */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 1220px;
+    width: 90%; /* Responsive width */
+    box-sizing: border-box;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+}
+
+.register-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Add spacing between form elements */
+}
+
+.form-group {
+    margin-bottom: 20px;
+    position: relative; /* To position icons within inputs */
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333; /* Darker color for better readability */
+    font-size: 1rem; /* Consistent font size */
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px; /* Increased padding for a more spacious feel */
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Slightly rounded corners */
+    transition: border-color 0.3s ease; /* Smooth border color transition */
+}
+
+.form-group input:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+button.register {
+    padding: 12px; /* Increased padding for buttons */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1rem; /* Consistent font size */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+button.register:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+button.register:disabled {
+    background-color: #007bff;
+    opacity: 0.6; /* Slightly transparent when disabled */
+    cursor: not-allowed; /* Change cursor on disabled button */
+}
+
+.error-message {
+    color: #d9534f; /* Bootstrap danger color */
+    font-size: 0.9rem; /* Slightly smaller font for error messages */
+    display: flex; /* Flex for better alignment */
+    align-items: center; /* Center error icon vertically */
+    margin-top: 5px; /* Space above the error message */
+}
+
+.error-message svg {
+    margin-right: 5px; /* Space between icon and text */
+}
+
+.success-message {
+    color: #5cb85c; /* Bootstrap success color */
+    font-size: 0.9rem; /* Slightly smaller font for success messages */
+    display: flex; /* Flex for better alignment */
+    align-items: center; /* Center success icon vertically */
+    margin-top: 5px; /* Space above the success message */
+}
+
+.success-message svg {
+    margin-right: 5px; /* Space between icon and text */
+}
+
+.terms {
+    display: flex;
+    align-items: center; /* Center checkbox and label vertically */
+}
+
+.terms input {
+    margin-right: 10px; /* Space between checkbox and label */
+}
+
+.link {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.link:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+p {
+    margin-top: 15px;
+    text-align: center; /* Center paragraph text */
+}
