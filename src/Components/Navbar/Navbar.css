@@ -12,8 +12,7 @@
   background-color: #4a90e2; /* Main navbar color */
   color: #fff; /* Text color */
   transition: all 0.3s ease;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-/* Shadow for depth */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow for depth */
 }
 
 .navbar-header-shift {
@@ -36,13 +35,12 @@
   font-weight: bold;
   color: rgb(234, 255, 0); /* Brand color */
   text-decoration: none;
-  margin-left: 1cm; 
+  margin-right: 30px;
 }
 
 .navbar-nav {
   display: flex;
   flex-grow: 1;
-
 }
 
 .navbar-list {
@@ -50,14 +48,10 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  margin-left: 8cm;
-
 }
 
 .navbar-item {
   margin: 0 15px;
-
-
 }
 
 .navbar-link {
@@ -67,7 +61,7 @@
   text-decoration: none;
   padding: 10px;
   transition: background-color 0.3s;
-
+  text-align: center;
 }
 
 .navbar-link:hover {
@@ -100,7 +94,6 @@
   cursor: pointer;
   transition: background-color 0.3s;
   margin-right:90px;
-  font-size: 25px;
 }
 
 .navbar-search-button:hover {
@@ -148,8 +141,9 @@
     display: none;
   }
   .navbar-menu-toggle{
-    font-size: 20px;
-    margin-left: 4cm;
+    font-size: 25px;
+    margin-left: 3cm;
+
   }
 
   /* Optionally hide specific links if needed */
