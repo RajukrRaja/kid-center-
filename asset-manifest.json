@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/RajukrRaja/kid-center-.git/static/css/main.06464c96.css",
-    "main.js": "/RajukrRaja/kid-center-.git/static/js/main.7953cd76.js",
-    "static/js/488.331faa9d.chunk.js": "/RajukrRaja/kid-center-.git/static/js/488.331faa9d.chunk.js",
-    "static/media/fa-solid-900.ttf": "/RajukrRaja/kid-center-.git/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
-    "static/media/fa-brands-400.ttf": "/RajukrRaja/kid-center-.git/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
-    "static/media/fa-solid-900.woff2": "/RajukrRaja/kid-center-.git/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
-    "static/media/fa-brands-400.woff2": "/RajukrRaja/kid-center-.git/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
-    "static/media/fa-regular-400.ttf": "/RajukrRaja/kid-center-.git/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
-    "static/media/BarclaysLogo.9fb34a3c.png": "/RajukrRaja/kid-center-.git/static/media/BarclaysLogo.9fb34a3c.9fb34a3c99b16cf26be4.png",
-    "static/media/fa-regular-400.woff2": "/RajukrRaja/kid-center-.git/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
-    "static/media/apollo.ddfc8482.png": "/RajukrRaja/kid-center-.git/static/media/apollo.ddfc8482.ddfc8482d3ceaa1e88c9.png",
-    "static/media/fa-v4compatibility.ttf": "/RajukrRaja/kid-center-.git/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
-    "static/media/fa-v4compatibility.woff2": "/RajukrRaja/kid-center-.git/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
-    "index.html": "/RajukrRaja/kid-center-.git/index.html",
-    "main.06464c96.css.map": "/RajukrRaja/kid-center-.git/static/css/main.06464c96.css.map",
-    "main.7953cd76.js.map": "/RajukrRaja/kid-center-.git/static/js/main.7953cd76.js.map",
-    "488.331faa9d.chunk.js.map": "/RajukrRaja/kid-center-.git/static/js/488.331faa9d.chunk.js.map"
+    "main.css": "/kid-center-/static/css/main.dba7ffdb.css",
+    "main.js": "/kid-center-/static/js/main.aa857cd3.js",
+    "static/js/488.331faa9d.chunk.js": "/kid-center-/static/js/488.331faa9d.chunk.js",
+    "static/media/fa-solid-900.ttf": "/kid-center-/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/kid-center-/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "/kid-center-/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/kid-center-/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/fa-regular-400.ttf": "/kid-center-/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/BarclaysLogo.9fb34a3c.png": "/kid-center-/static/media/BarclaysLogo.9fb34a3c.9fb34a3c99b16cf26be4.png",
+    "static/media/fa-regular-400.woff2": "/kid-center-/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/apollo.ddfc8482.png": "/kid-center-/static/media/apollo.ddfc8482.ddfc8482d3ceaa1e88c9.png",
+    "static/media/fa-v4compatibility.ttf": "/kid-center-/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/kid-center-/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/kid-center-/index.html",
+    "main.dba7ffdb.css.map": "/kid-center-/static/css/main.dba7ffdb.css.map",
+    "main.aa857cd3.js.map": "/kid-center-/static/js/main.aa857cd3.js.map",
+    "488.331faa9d.chunk.js.map": "/kid-center-/static/js/488.331faa9d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06464c96.css",
-    "static/js/main.7953cd76.js"
+    "static/css/main.dba7ffdb.css",
+    "static/js/main.aa857cd3.js"
   ]
 }
