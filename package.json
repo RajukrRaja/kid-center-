@@ -1,6 +1,10 @@
 {
     "name": "studentasmentor",
     "version": "1.0.0",
+"homepage": "https://RajukrRaja.github.io/kid-center",
+
+
+
     "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
     "main": "postcss.config.js",
     "dependencies": {
@@ -939,12 +943,15 @@
         "yargs-parser": "^20.2.9",
         "yocto-queue": "^0.1.0"
     },
-    "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject"
-    },
+"scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+,
     "author": "",
     "license": "ISC",
     "browserslist": {
@@ -960,6 +967,7 @@
         ]
     },
     "devDependencies": {
-        "compression-webpack-plugin": "^10.0.0"
+        "compression-webpack-plugin": "^10.0.0",
+        "gh-pages": "^6.2.0"
     }
 }
