@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/RajukrRaja/kid-center-.git/static/css/main.06464c96.css",
-    "main.js": "/RajukrRaja/kid-center-.git/static/js/main.1e37c991.js",
-    "static/js/488.331faa9d.chunk.js": "/RajukrRaja/kid-center-.git/static/js/488.331faa9d.chunk.js",
-    "static/media/fa-solid-900.ttf": "/RajukrRaja/kid-center-.git/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
-    "static/media/fa-brands-400.ttf": "/RajukrRaja/kid-center-.git/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
-    "static/media/fa-solid-900.woff2": "/RajukrRaja/kid-center-.git/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
-    "static/media/fa-brands-400.woff2": "/RajukrRaja/kid-center-.git/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
-    "static/media/fa-regular-400.ttf": "/RajukrRaja/kid-center-.git/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
-    "static/media/BarclaysLogo.9fb34a3c.png": "/RajukrRaja/kid-center-.git/static/media/BarclaysLogo.9fb34a3c.9fb34a3c99b16cf26be4.png",
-    "static/media/fa-regular-400.woff2": "/RajukrRaja/kid-center-.git/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
-    "static/media/apollo.ddfc8482.png": "/RajukrRaja/kid-center-.git/static/media/apollo.ddfc8482.ddfc8482d3ceaa1e88c9.png",
-    "static/media/fa-v4compatibility.ttf": "/RajukrRaja/kid-center-.git/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
-    "static/media/fa-v4compatibility.woff2": "/RajukrRaja/kid-center-.git/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
-    "index.html": "/RajukrRaja/kid-center-.git/index.html",
-    "main.06464c96.css.map": "/RajukrRaja/kid-center-.git/static/css/main.06464c96.css.map",
-    "main.1e37c991.js.map": "/RajukrRaja/kid-center-.git/static/js/main.1e37c991.js.map",
-    "488.331faa9d.chunk.js.map": "/RajukrRaja/kid-center-.git/static/js/488.331faa9d.chunk.js.map"
+    "main.css": "/static/css/main.29c7e4fc.css",
+    "main.js": "/static/js/main.eb2c6d6e.js",
+    "static/js/488.331faa9d.chunk.js": "/static/js/488.331faa9d.chunk.js",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/BarclaysLogo.9fb34a3c.png": "/static/media/BarclaysLogo.9fb34a3c.9fb34a3c99b16cf26be4.png",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/apollo.ddfc8482.png": "/static/media/apollo.ddfc8482.ddfc8482d3ceaa1e88c9.png",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/index.html",
+    "main.29c7e4fc.css.map": "/static/css/main.29c7e4fc.css.map",
+    "main.eb2c6d6e.js.map": "/static/js/main.eb2c6d6e.js.map",
+    "488.331faa9d.chunk.js.map": "/static/js/488.331faa9d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06464c96.css",
-    "static/js/main.1e37c991.js"
+    "static/css/main.29c7e4fc.css",
+    "static/js/main.eb2c6d6e.js"
   ]
 }
